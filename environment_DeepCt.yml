@@ -1,0 +1,25 @@
+name: DeepCt
+channels:
+  - conda-forge
+
+dependencies:
+  - pandas
+  - python=3.8
+  - scikit-learn
+  - scipy
+  - pip
+  - pip:
+      - optuna
+      - ipykernel
+      - ipython
+      - matplotlib
+      - matplotlib-inline
+      - numpy
+      - rdkit-pypi==2022.9.5
+      - seaborn
+      - torch
+      - torchaudio
+      - torcheval
+      - torchvision
+
+prefix: DeepCt
